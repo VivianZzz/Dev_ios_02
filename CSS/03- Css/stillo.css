@@ -1,3 +1,8 @@
+*{
+    background-color: darkmagenta;
+}
+
+
 p{
     color:blueviolet ;
 }
@@ -20,4 +25,19 @@ h1{
 
 p. fundo{
     background-color: beige;
+    #paodequeijo
+}
+#primeiro_nome{
+    background-color: crimson;
+    text-align: center;
+}
+#segundonome{ 
+    background-color: blue;
+    text-align: center;
+
+}
+article h4{
+    text-align: center;
+    border: 2 px solid indigo;
+    font-size: 26 px;
 }
