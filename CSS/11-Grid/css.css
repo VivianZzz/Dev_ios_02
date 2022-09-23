@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px;
+}
+
+.item-1 {
+    border: 1px solid navy;
+}
+
+.item-2 {
+    border: 1px solid purple;
+}
+
+.item-3 {
+    border: 1px solid red;
+}
+
+.item-4 {
+    border: 1px solid darkgreen;
+}
