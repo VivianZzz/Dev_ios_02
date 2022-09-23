@@ -1,0 +1,53 @@
+body{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:
+    rgb(0, 0, 3);
+}
+
+img{
+width: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+.div{
+    border:2px solid rgb(9, 11, 131);
+    margin: 50px 0;
+    padding: 50px;
+    background: #ebe4e4;
+    border-radius: 50px;
+}
+.div h3{
+    margin:20px 0;
+}
+
+.bordas {
+    margin-top: 25px;
+    padding: 0 20px;
+    border: 2px solid black;
+}
+
+#container-left{
+    display: flex;
+    
+}
+#container-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#container-right figure{
+    margin: 50px;
+}
+
+.showcase {
+    background-image: url('imagine\ dragons.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
