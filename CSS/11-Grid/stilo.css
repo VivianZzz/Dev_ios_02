@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 15px;
+    justify-items: end;
+    align-items: start;
+    place-items: stretch center;
+    /*row-gap: 15px;
+    margin: 10px;*/
+    grid-template-areas:"Pipoca Pipoca Pipoca Pipoca"
+    "foter foter . main "
+    "  header header header header";
+    
+}
+
+.item-1 {
+    grid-area: Pipoca;
+    border: 1px solid navy;
+}
+
+.item-2 {
+    grid-area: footer;
+    border: 1px solid purple;
+}
+
+.item-3 {
+    grid-area: main;
+    border: 1px solid red;
+}
+
+.item-4 {
+    grid-area: header;
+    border: 1px solid darkgreen;
+}
+
+.item-5 {
+    grid-area: Pipoca5;
+    border: 1px solid tomato;
+}
