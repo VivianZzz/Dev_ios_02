@@ -16,3 +16,6 @@ var string1= "Vivian Maria de Oliveira e Silva"
 
 console.log(string1[0])
 console.log(string1.charAt(3))
+console.log(string1.length)
+
+
