@@ -1,0 +1,4 @@
+Crie um arquivo texto e diga com a suas palavras o que é
+um objeto e o que é um método no Javascript.
+
+É uma abreviação para uma função atribuída ao nome do método e o  objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor. 
