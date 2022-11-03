@@ -21,5 +21,18 @@ heading.innerHTML = 'BEM VINDO!';
 document.body.appendChild(heading);
 
 
+var titulo1 = document.getElementById(titulo);
+//alterando o conteudo do elemento
+titulo.innerHTML = "Bem Vindo!"
+// config o estilo css do element 
+titulo.style.backgroundcolor = 'blueviolet';
+titulo.style.borderbottom = 'solid 3px #000';
+titulo.style.margin = '30px'
+titulo.style.textAlign = 'center';
+titulo.style.backgroundColor = '#CCCCC9';
+titulo.style.borderBottom = 'solid 3px #000';
+titulo.style.margin = '20px';
+
+
 
 
