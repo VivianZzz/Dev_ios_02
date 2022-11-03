@@ -16,5 +16,10 @@ window.open('Abra Uma nova Página');
 window.confirm('Abre uma nova pagina');
 
 document.title = 'Brasil Escola'
+let heading = document.createElement('H1');
+heading.innerHTML = 'BEM VINDO!';
+document.body.appendChild(heading);
+
+
 
 
